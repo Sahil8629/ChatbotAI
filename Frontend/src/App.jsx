@@ -345,7 +345,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [uploadMessage, setUploadMessage] = useState("");
 
-  const BACKEND_URL = "http://127.0.0.1:8000";
+ const BACKEND_URL = "https://chatbotai-bkaw.onrender.com";
 
   // File Change
   const handleFileChange = (e) => {

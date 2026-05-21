@@ -168,7 +168,9 @@ app = FastAPI()
 # =========================
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # React frontend allowed
+    allow_origins=[
+        "https://chatbot-ai-ten-alpha.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
